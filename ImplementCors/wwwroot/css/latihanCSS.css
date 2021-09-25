@@ -1,0 +1,118 @@
+﻿/*body {
+    border: 1px solid black;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+
+* {
+    border: 2px solid;
+    padding: 15px;
+    margin: 15px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+#judul, #container, #container > #a,
+#container > #b, #b > #a, #b > ul, ul > li {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin: inherit;
+    padding: 10px;
+}
+
+.p1, .p2, .p3 {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+ a {
+    display: inline;
+   margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #ffa500;
+    color: black;
+}
+
+.p1:hover, .p2:hover, .p3:hover, #b > #a:hover, ul:hover {
+    background-color: #ffa500;
+}
+
+#container > #a:hover,
+#container > #b:hover {
+    background-color: #3cb371;
+}
+
+li:hover {
+    background-color: #c3dcff;
+}
+*/
+
+h1{
+    text-align:center;
+    margin: 30px auto;
+    font-size:30px;
+}
+
+
+td {
+    text-align: center;
+    margin: 30px auto;
+}
+
+/*li, .col-sm-3, .col-sm-5 {
+    text-align: left;
+}*/
+
+.tablehead {
+    text-align: center;
+}
+
+/*.containerData>.row {
+    text-align: left;
+    margin-left: 2px;
+}*/
+
+img {
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+#insert{
+    background-color:blue;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+#opsigender{
+    border: 1px solid grey;
+    border-radius:5%;
+}
+
+#insert{
+    margin-bottom: 10px;
+}

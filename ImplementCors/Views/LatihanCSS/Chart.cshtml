@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Chart";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Chart</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-6">
+                <div class="card card-primary h-100">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">Gender</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="chartgender">
+                        </div>
+                    </div>
+                    @*card body*@
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card-primary h-100">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">Degree</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="chartdegree">
+                        </div>
+                    </div>
+                    @* card body*@
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card card-primary h-100">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">University</h3>
+                    </div>
+                    <div class="card-body justify-content-center d-flex">
+                        <div id="chartuniv">
+                        </div>
+                    </div>
+                    @* card body*@
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+@section scripts{
+    <script src="/js/ChartJS.js"></script>
+}

@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>403 - Forbidden</title>
+
+    <style id="" media="all">
+        /* vietnamese */
+
+    </style>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="~/css/401.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+    <meta name="robots" content="noindex, follow">
+</head>
+
+<body class="bg-gradient-primary mh-100" style=" background-image: url('https://ak.picdn.net/shutterstock/videos/25785098/thumb/6.jpg'); position: center fixed; ">
+    <div id="notauthorize">
+        <div class="notauthorize" style="color:white">
+            <div class="notauthorize-401">
+                <h1 class="display-1 font-weight-bold">4<span>0</span>3</h1>
+            </div>
+            @*<p class="font-weight-light">The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>*@
+            @*<button class="btn btn-primary" href="https://localhost:44301/Login/Login">Login page</button>*@
+            <p class="m-2 font-weight-light text-center">You will automatically redirect to dashboard page</p>
+        </div>
+    </div>
+    <script>
+        var seconds = 5;
+
+        window.onload = function () {
+            var timer = setInterval(function () {
+                if (seconds <= 0) {
+                    document.getElementById("time").innerHTML = 0;
+                } else {
+                    document.getElementById("time").innerHTML = seconds - 1;
+                }
+                seconds -= 1;
+            }, 1000);
+
+            setTimeout(function () {
+                window.location.href = '/latihancss';
+            }, seconds * 1000);
+        };
+    </script>
+
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;rayId&quot;:&quot;6938463fa8674a11&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.8.1&quot;,&quot;si&quot;:10}"></script>
+
+
+</body>
+
