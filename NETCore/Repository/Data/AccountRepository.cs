@@ -154,7 +154,7 @@ namespace NETCore.Repository.Data
                 smtp.Host = "smtp.gmail.com"; //for gmail host  
                 smtp.EnableSsl = true;
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential("febyaniwaranti@gmail.com", "febryanisriwaranti12");
+                smtp.Credentials = new NetworkCredential("febyaniwaranti@gmail.com", "***********");
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Send(message);
             }
